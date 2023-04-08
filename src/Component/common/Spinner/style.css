@@ -1,0 +1,7 @@
+.spinner-wrap{
+    display: flex;
+    justify-content: center;
+}
+.spinner-wrap img{
+ width: 150px;
+}

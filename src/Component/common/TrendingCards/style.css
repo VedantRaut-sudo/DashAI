@@ -1,0 +1,53 @@
+.TCard_for_browser{
+
+    padding: 10px;
+    height: 180px;
+    /* width: 700px; */
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+    width: 268px;
+    
+}
+.browser_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.Tcard_heading{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 26px;
+    width: 230px;
+    font-weight: 400;
+    
+    font-family: 'Archivo', sans-serif;
+}
+
+
+
+@media screen and (max-width: 365px) {}
+@media (min-width:366px) and (max-width: 576px) {
+  .Tcard_heading{
+    width: 0;
+    font-size: 22px;
+  }
+  .TCard_for_browser{
+    padding: 0;
+    margin-right: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+  }
+}
+@media (min-width:577px) and (max-width:768px) {}

@@ -1,0 +1,17 @@
+.tool_item_main_wrap{
+    
+    max-width: 1440px;
+    margin:15px;
+}
+.all_item_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+}
+/* media  */
+@media screen and (max-width:576px) {
+    .all_item_list{
+        grid-template-columns: 1fr;
+    }
+}

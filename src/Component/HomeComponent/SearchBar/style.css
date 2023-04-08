@@ -1,0 +1,142 @@
+.searchBar {
+    padding: 20px 25px;
+    /* outline:1px solid blue; */
+    width: 550px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    /* background-color: #161616; */
+    /* border: 1px solid #343434; */
+    /* background-color: #1c1c1e; */
+    
+    color: #dadada;
+    border: 1px solid #343434; 
+    transition: border-color 0.3s ease-in-out;
+    /* From https://css.glass */
+background: rgba(40, 40, 40, 0.59);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+/* border: 1px solid rgba(255, 255, 255, 1); */
+}
+.searchBar:focus {
+    /* border-color: #cdaa73; */
+    border-width: 2px;
+    border-color: rgb(90, 34, 230);
+     /* brighter golden color */
+    outline: none; /* remove the default blue outline */
+    /* border-image:  linear-gradient(#f6b73c, #4d9f0c) 100; */
+  }
+.link{
+    color: white;
+}
+
+.suggestion_wrap {
+    z-index: 1;
+    position: absolute;
+    background-color:#111111;
+    width: 550px;
+    max-height: 170px;
+    overflow: auto;
+
+    color: #dadada;
+    border-radius: 9px;
+    padding: 8px 15px;
+    margin: 7px auto;
+
+    background: rgba(40, 40, 40, 0.59);
+/* border-radius: 16px; */
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(6px);
+-webkit-backdrop-filter: blur(6px);
+
+    
+}
+.suggestion_wrap::-webkit-scrollbar {
+    width: 0 !important
+}
+
+.suggestion_wrap {
+    overflow: -moz-scrollbars-none;
+}
+
+.suggestion_wrap {
+    -ms-overflow-style: none;
+}
+
+.category_suggestion_heading,
+.tool_suggestion_heading {
+    font-weight: 500;
+    display: flex;
+    
+    color: #dadada;
+    font-size: 16px;
+    padding: 10px 0 10px 0;
+}
+
+.search_wrap {
+    /* padding: 20px; */
+}
+
+.tool_suggestion_list,
+.category_suggestion_list {
+    display: flex;
+    font-size: 17px;
+    list-style: none;
+    padding: 8px 9px;
+border-radius: 3px;
+    color: rgb(28, 28, 28);
+}
+.tool_suggestion_list:hover,
+.category_suggestion_list:hover {
+    background-color: rgba(105, 115, 255, 0.356);
+
+    
+}
+.link-suggestions{
+      color: #dadada;
+
+    text-decoration: none;
+}
+
+.no_result {
+    width: 50px;
+    display: flex;
+    margin: auto;
+
+}
+
+@media screen and (max-width: 576px) {
+    .searchBar {
+        padding: 20px 25px;
+        max-width:350px;
+        margin: 10px;
+
+        font: 16px;
+    }
+
+    .search_wrap {
+        /* padding: 20px; */
+        display: flex;
+        justify-content: center;
+    }
+    .suggestion_wrap {
+position: absolute;
+        background-color:#252526;
+        width: 350px;
+        max-height: 170px;
+        overflow: auto;
+    
+        color: #dadada;
+        border-radius: 9px;
+        padding: 8px 15px;
+        margin: 73px auto;
+    }
+}
+
+@media (min-width:577px) and (max-width:768px) {
+    .searchBar{
+        width: 383px;
+    }
+}

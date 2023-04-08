@@ -1,0 +1,32 @@
+.width {
+    width: 260px;
+    background-color: rgb(55, 55, 55);
+}
+
+.search_wrapper {
+    width: 100%;
+}
+.suggestion_wrap_explore {
+    position: absolute;
+    background-color: #252526;
+    width: 350px;
+    max-height: 170px;
+    overflow: auto;
+    color: #dadada;
+    border-radius: 9px;
+    padding: 8px 15px;
+    margin: 10px auto;
+}
+@media screen and (max-width: 576px) {
+    .suggestion_wrap_explore {
+        position: absolute;
+        background-color: #252526;
+        width: 350px;
+        max-height: 170px;
+        overflow: auto;
+        color: #dadada;
+        border-radius: 9px;
+        padding: 8px 15px;
+        margin: 10px auto;
+    }
+}

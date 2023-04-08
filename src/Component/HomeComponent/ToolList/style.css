@@ -1,0 +1,22 @@
+.tool_item_main_wrap{
+    
+    max-width: 1380px;
+    margin:30px auto;
+}
+.all_item_list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-gap: 12px;
+
+}
+/* media  */
+@media screen and (max-width:720px) {
+    .all_item_list{
+        grid-template-columns: 1fr;
+    }
+}
+@media  (min-width:720px) and (max-width:1120px) {
+    .all_item_list{
+        grid-template-columns: 1fr 1fr;
+    }
+}

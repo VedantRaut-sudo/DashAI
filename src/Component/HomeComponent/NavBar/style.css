@@ -1,0 +1,243 @@
+.navbar_wrap {
+    z-index: 10;
+    position: sticky;
+    top: 0;
+    left: 0;
+    position: sticky;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    backdrop-filter: saturate(180%) blur(20px);
+    color: white;
+    background-color: #161616e0;
+    padding: 14px;
+    /* transition: height 0.3s ease-in-out; */
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+
+    position: absolute;
+}
+
+.navbar-black {
+
+    /* transition: height 0.3s ease-in-out; */
+    transition: all 0.3s ease-in-out;
+    backdrop-filter: saturate(180%) blur(20px);
+    transition: background-color 0.5s ease;
+    /* background-color: #161616e0; */
+    border-bottom: 1px solid #343434;
+    height: 56px;
+    /* position: absolute; */
+}
+
+.navbar-white {
+    backdrop-filter: saturate(180%) blur(20px);
+    /* transition: background-color 0.5s ease; */
+    /* background-color: #161616e0; */
+
+    border-bottom: 1px solid #343434;
+    /* transition: height 0.3s ease-in-out; */
+    transition: all 0.3s ease-in-out;
+
+}
+
+.rightside ul {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+}
+
+.rightside {
+    align-items: center;
+    display: flex;
+}
+
+.list_item {
+    color: rgb(241, 241, 241);
+    margin: 15px;
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.logo {
+    height: 20px;
+}
+
+.leftside {
+    display: flex;
+    align-items: center;
+}
+
+/* dropdown-wrap */
+.dropdown-wrap {
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+
+}
+
+.dropdown-menu {
+    position: absolute;
+    
+    width: 65%;
+    height: 500px;
+    top: 65px;
+    right: 30px;
+background-color: rgba(188, 188, 188, 0.263);
+    backdrop-filter: saturate(180%) blur(20px);
+    padding: 20px;
+    border-radius: 6px;
+    /* transition: background-color 0.5s ease; */
+    /* background-color: #161616e0; */
+
+    border: 1px solid #717171;
+    
+
+}
+
+/* media query  */
+@media screen and (max-width: 480px) {
+    .hide_btn {
+        display: flex;
+    }
+
+    .small-device-hide {
+        display: none;
+    }
+
+    .list_item {
+        margin: 0;
+    }
+
+    .logo {
+        position: absolute;
+        top: 18px;
+        height: 18px;
+    }
+
+    #navv {
+        display: block;
+    }
+}
+
+
+/*  */
+.upnav{
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.navbar-toggle {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.navbar-toggle-icon,
+.navbar-toggle-icon::before,
+.navbar-toggle-icon::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #d3d3d3;
+    position: absolute;
+    left: 0;
+    transition: transform 0.2s ease-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.navbar-toggle-icon::before {
+    top: -8px;
+}
+
+.navbar-toggle-icon::after {
+    bottom: -8px;
+}
+
+.navbar-toggle {
+    display: none;
+}
+.navbar_wrap{
+    display: block;
+}
+.expanded {
+    height: 100vh;
+    background-color: #282727;
+    background-color: #222222;
+
+    /* transition: height 0.3s ease-in-out; */
+    transition: all 0.3s ease-in-out;
+}
+
+.minimized {
+    /* transition: height 0.3s ease-in-out; */
+    transition: all 0.3s ease-in-out;
+   
+}
+.lownav{
+    /* margin-top: px; */
+}
+.explore{
+    
+
+top: 55px;
+    left: 0;
+    width: 100%;
+    padding: 25px 20px;
+    border-top: 2px solid #3f2aff;
+    position: absolute;
+}
+.inside_mob_nav_section{
+    display: flex;
+    justify-self: start;
+    align-items: center;
+    flex-direction: row;}
+.inside_mob_nav_section h2{
+    font-size: 20px;
+    font-weight: 300;
+    margin: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Archivo', sans-serif;
+}
+.inside_mob_nav_section img{
+    width: 20px;
+    height: 20px;
+}
+.nav_section{
+    padding: 10px 0;
+}
+.social_link_for_nav_mob{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px ;
+    flex-direction: row;
+}
+.social_link_for_nav_mob_wrap{
+    padding: 10px;
+}
+.social_link_for_nav_mob h3{
+    margin:0 10px;
+    font-size: 18px;
+    font-weight: 300;
+
+    color: white;
+    text-decoration: none;
+    font-family: 'Archivo', sans-serif;
+}
+.social_link_for_nav_mob img{
+    width: 30px;
+    height: 30px;
+}

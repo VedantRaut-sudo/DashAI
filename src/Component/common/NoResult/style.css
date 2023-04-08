@@ -1,0 +1,10 @@
+.no_result_wrap{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    font-size: 20px;
+    color: white;
+}
+.no_result_wrap img{
+    width: 60px;
+}

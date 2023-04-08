@@ -1,0 +1,47 @@
+.swiper{
+  background-color: rgb(20, 20, 20);
+
+}
+.slider{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+}
+.list{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+.cat{
+  min-height: 10px;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  margin: 15px 10px;
+  border: 1px solid white;
+  text-align: center;
+  padding: 6px 12px;
+  border-radius: 50px;
+  align-items: center;
+font-size: 14px;
+text-decoration: none;
+
+}
+.link_text_decoration_none{
+  text-decoration: none;
+}
+.btn{
+display: flex;
+justify-content: center;
+align-items: center;
+  border: 1px solid #384bfd;
+  outline: none;
+  width: 127px;
+  background-color: #384bfd;
+  
+}
+.btn img{
+  width: 30px;
+}
+
+
