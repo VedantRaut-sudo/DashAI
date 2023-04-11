@@ -27,7 +27,7 @@ const HeroSection = () => {
                 <div className="Searchbar_plus_browsebtn_wrap">
 
                     <SearchBar />
-                    <div className="browse_btn">
+                    <div className="browse_btn" >
                         <Link className='browse_btn_link' to='/category/'>Discover</Link>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ const HeroSection = () => {
                     <h6 className='heading_for_trending_section'>Trending searches</h6>
 
                     <div className="btn_trend">
-                        <Link className='link'>
+                        <Link className='link'  target='_blank' to={'/category/productivity'}> 
                             <div className="trend_item">
                                 Productivity
                             </div>
@@ -43,7 +43,7 @@ const HeroSection = () => {
 
                     </div>
                     <div className="btn_trend">
-                        <Link className='link'>
+                        <Link className='link'  target='_blank' to={'/category/video-editing'}>
                             <div className="trend_item">
                                 Video Editing
                             </div>
@@ -51,7 +51,7 @@ const HeroSection = () => {
 
                     </div>
                     <div className="btn_trend">
-                        <Link className='link'>
+                        <Link className='link'  target='_blank' to={'/category/coding'}>
                             <div className="trend_item">
                                 Coding
                             </div>
@@ -59,7 +59,7 @@ const HeroSection = () => {
 
                     </div>
                     <div className="btn_trend">
-                        <Link className='link'>
+                        <Link className='link'  target='_blank' to={'/category/design'}>
                             <div className="trend_item">
                                 Design
                             </div>
@@ -67,7 +67,7 @@ const HeroSection = () => {
 
                     </div>
                     <div className="btn_trend">
-                        <Link className='link'>
+                        <Link className='link'  target='_blank' to={'/category/image-generator'}>
                             <div className="trend_item">
                                 Image Generator
                             </div>
@@ -75,7 +75,7 @@ const HeroSection = () => {
 
                     </div>
                     <div className="btn_trend">
-                        <Link className='link'>
+                        <Link className='link'   target='_blank' to={'/category/assistant'}>
                             <div className="trend_item">
                                 Assitant
                             </div>
