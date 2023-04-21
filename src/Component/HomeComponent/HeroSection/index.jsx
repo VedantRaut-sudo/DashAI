@@ -2,8 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import SearchBar from '../SearchBar'
 import './style.css'
-// import NavBar from '../NavBar'
-// import video from './pexel.mp4'
 
 const HeroSection = () => {
     return (
@@ -14,12 +12,7 @@ const HeroSection = () => {
 
             <div className="main_hero">
                 <div className="data">
-                    {/* 
-                <h1>Become an Expert with these AI-powered tools</h1>
-                <h2>More than <span className='gradiant'>1000+</span>   AI tools are here </h2>
-                <h3>Tools that makes your life easy</h3> */}
-                    {/* <h3>Find the AI you are looking for</h3> */}
-                    {/* <h1>Dash AI</h1> */}
+                  
                     <h3>Become an Expert with these AI-powered tools</h3>
                     <h1>More Than <span className='gradiant'>1000+</span>   AI Tools Are Here </h1>
 
