@@ -170,7 +170,7 @@
     width: 100%;
     content: " ";
     /* background: url('./v2\ \(4\).jpg'); */
-    background: url('./d.jpeg');
+    background: url('./last1.jpg');
     position: absolute;
     background-size: cover;
     background-position: center;
@@ -292,7 +292,7 @@
 
 .data h1 {
 
-    background: linear-gradient(180deg, #b0e1ff, #76bdff);
+    background: linear-gradient(100deg, #35abff, #4226fe,rgb(215, 14, 199), red);
     background-size: 110% auto;
     background-position: center;
     color: transparent;
