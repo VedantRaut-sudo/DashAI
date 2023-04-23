@@ -8,7 +8,7 @@ export class ToolBoxData extends Component {
         let { title, description, image, plan, slug, link } = this.props;
         return (
             <div className='tool_card_wrap'>
-                <img className='card_image' src={image} alt="cover" />
+                <img className='card_image' Loading="priority" src={image} alt="cover" />
                 <div className="card_data">
                     <div className="card_detail">
                         <Link className='link' to={`/category/tool/${slug}`}>
