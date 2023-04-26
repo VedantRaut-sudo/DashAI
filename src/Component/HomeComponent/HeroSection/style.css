@@ -145,7 +145,8 @@
 
 
 /* new text */
-.hero_section {}
+.hero_section {
+}
 
 .main_hero {
     /* background-color: rgb(0, 0, 0); */
@@ -154,31 +155,26 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* background: url('./1680032940602.jpg'); */
-    /* background: linear-gradient(115deg, #FF9797 0%, #0F0068 100%), linear-gradient(245deg, #A8FFE5 0%, #0500FF 100%), radial-gradient(100% 225% at 100% 0%, #FF003D 0%, #000000 100%), radial-gradient(90% 160% at 0% 100%, #E42C64 0%, #E42C64 30%, #614AD3 calc(30% + 1px), #614AD3 60%, #2D248A calc(60% + 1px), #2D248A 70%, #121B74 calc(70% + 1px), #121B74 100%), linear-gradient(100deg, #48466F 9%, #48466D 35%, #3D84A8 calc(35% + 1px), #3D84A8 65%, #46CDCF calc(65% + 1px), #46CDCF 70%, #ABEDD8 calc(70% + 1px), #ABEDD8 100%); */
-    /* background-blend-mode: overlay, overlay, overlay, overlay, normal; */
-    /* background: url('./c5\ \(5\).jpg'); */
-    /* background: url('./try\ \(2\).jpg'); */
-    /* background-size: cover; */
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
+ 
     position: relative;
     margin-top: 30px;
+    background: url('https://img.freepik.com/free-vector/modern-desktop-background-geometric-blue-design-vector_53876-135923.jpg?w=900&t=st=1682508764~exp=1682509364~hmac=fe648dbb22dea8046759fdf0403c309fac12c4c566eae7b76de06f7f9fce83a7');
+    background: url('./Desktop\ -\ 4.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 #hero_section:before {
-    width: 100%;
+    /* width: 100%;
     content: " ";
     /* background: url('./v2\ \(4\).jpg'); */
-    background: url('./last1.jpg');
+    /* background: url('./last1.jpg');
     position: absolute;
-    background-size: cover;
-    background-position: center;
     left: 0px;
-    background-repeat: no-repeat;
     top: 0px;
-    opacity: 0.8;
-    height: 100%;
+    opacity: 1;
+    height: 100%; */
 }
 
 .data h1 {
@@ -212,7 +208,8 @@
 .data h3 {
     letter-spacing: 0.7px;
     margin-bottom: 10px;
-    color: #cbcbcb;;
+    color: #cbcbcb;
+    ;
     font-size: 26px;
 
     font-weight: 300;
@@ -267,7 +264,7 @@
 }
 
 @media screen and (max-width:576px) {
-    
+
     .trending_suggestion_wrap {
         margin: 20px auto;
         max-width: 325px;
@@ -277,8 +274,9 @@
         justify-content: center;
         align-items: center;
     }
-    
+
 }
+
 .heading_for_trending_section {
     font-size: 12px;
 
@@ -305,7 +303,7 @@
 
 .data h1 {
 
-    background: linear-gradient(100deg, #35abff, #4226fe,rgb(215, 14, 199), red);
+    background: linear-gradient(100deg, #35abff, #4226fe, rgb(215, 14, 199), red);
     background: linear-gradient(100deg, #23a3fe, #4226fe);
     background-size: 110% auto;
     background-position: center;
@@ -313,9 +311,9 @@
     -webkit-background-clip: text;
     background-clip: text;
 
-    
-    
-    
+
+
+
 }
 
 @media screen and (max-width: 365px) {
@@ -390,7 +388,7 @@
         letter-spacing: 0.6px;
         font-weight: 300;
         font-size: 15px;
-        color: #b1b1b1;
+        color: #cecbcb;
         margin-bottom: 8px;
     }
 
@@ -428,7 +426,7 @@
     .data h1 {
         font-size: 47px;
         max-width: 520px;
-        
+
         margin-bottom: 0px;
     }
 
@@ -450,13 +448,14 @@
 }
 
 @media (min-width:768px) and (max-width:1280px) {
-    .data h3{
+    .data h3 {
         font-size: 26px;
     }
-    .data h1{
+
+    .data h1 {
         font-size: 48px;
-    max-width: 634px;
-    margin-bottom: 12px;
+        max-width: 634px;
+        margin-bottom: 12px;
     }
 
 }
