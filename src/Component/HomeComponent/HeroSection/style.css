@@ -298,10 +298,31 @@
     color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
+    background: linear-gradient(91.36deg, #ffe553 0%, #ff829d 13.02%, #ff6bce 25.52%, #9a71ff 37.5%, #54b5ff 49.48%, #748bff 63.02%, #ff65a2 72.92%, #ff5d54 84.38%, #ff613e 97.92%);
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    
+    -webkit-text-fill-color: transparent;
+    animation: intro-gradient 10s infinite ease-in-out both;
+    
+    
+    
+}
 
-    
-    
-    
+@keyframes intro-gradient {
+
+
+    0% {
+        background-position: 0% 4%;
+    }
+
+    50% {
+        background-position: 100% 97%;
+    }
+
+    100% {
+        background-position: 0% 4%;
+    }
 }
 
 @media screen and (max-width: 365px) {
