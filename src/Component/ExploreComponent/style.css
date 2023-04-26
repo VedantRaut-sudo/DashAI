@@ -45,9 +45,11 @@
     opacity: 1;
     /* Firefox */
 }
-.Explore_Page_Lower_Section{
+
+.Explore_Page_Lower_Section {
     margin-bottom: 25px;
 }
+
 .browser_seachBar:-ms-input-placeholder {
     /* Internet Explorer 10-11 */
     color: rgb(208, 208, 208);
@@ -109,10 +111,11 @@
     -ms-overflow-style: none;
 }
 
-.Browser_search_input{
+.Browser_search_input {
     display: flex;
     flex-direction: row;
 }
+
 .browsePage_section_title {
     color: rgb(255, 255, 255);
     font-weight: 400;
@@ -120,36 +123,39 @@
     margin: 5px 0 5px 0;
 }
 
-@media screen and (max-width: 365px) {}
-@media (min-width:366px) and (max-width: 576px) {
+@media screen and (max-width: 365px) {
     .section_1 {
 
 
         padding: 14px 0px;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 1fr ;
         grid-gap: 12px;
     }
-    .Explore_Page_Upper_section{
+
+    .Explore_Page_Upper_section {
         flex-direction: column-reverse;
         align-items: flex-start;
         padding: 0px 2px 10px 2px;
 
     }
+
     .search_btn {
 
         padding: 10px 22px;
 
         font-size: 13px;
         margin-left: 9px;
-    
+
     }
-    .Browser_search_input{
+
+    .Browser_search_input {
         margin: 8px 0;
         display: flex;
         padding: 0 10px;
         width: 100%;
         justify-content: center;
     }
+
     .browser_seachBar {
         font-size: 13px;
         background-color: #222222;
@@ -162,8 +168,69 @@
         border: none;
         outline: none;
     }
-    .Trending{
+
+    .Trending {
         margin-bottom: 30px;
     }
 }
-@media (min-width:577px) and (max-width:768px) {}
+
+@media (min-width:366px) and (max-width: 576px) {
+    .section_1 {
+
+
+        padding: 14px 0px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 12px;
+    }
+
+    .Explore_Page_Upper_section {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        padding: 0px 2px 10px 2px;
+
+    }
+
+    .search_btn {
+
+        padding: 10px 22px;
+
+        font-size: 13px;
+        margin-left: 9px;
+
+    }
+
+    .Browser_search_input {
+        margin: 8px 0;
+        display: flex;
+        padding: 0 10px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    .browser_seachBar {
+        font-size: 13px;
+        background-color: #222222;
+        width: 100%;
+        /* margin: auto; */
+        color: white;
+
+        padding: 13px 18px;
+        border-radius: 5px;
+        border: none;
+        outline: none;
+    }
+
+    .Trending {
+        margin-bottom: 30px;
+    }
+}
+
+@media (min-width:577px) and (max-width:930px) {
+    .section_1 {
+
+
+        padding: 14px 0px;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 12px;
+    }
+}

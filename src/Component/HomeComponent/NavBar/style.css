@@ -195,7 +195,9 @@ top: 55px;
     left: 0;
     width: 100%;
     padding: 25px 20px;
-    border-top: 2px solid #3f2aff;
+    /* border-top: 2px solid #3f2aff; */
+
+    border-top: 1.6px solid #3a3a3a;
     position: absolute;
 }
 .inside_mob_nav_section{

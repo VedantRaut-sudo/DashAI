@@ -210,9 +210,9 @@
 }
 
 .data h3 {
-    letter-spacing: 0.012em;
+    letter-spacing: 0.7px;
     margin-bottom: 10px;
-    color: #bfbfbf;;
+    color: #cbcbcb;;
     font-size: 26px;
 
     font-weight: 300;
@@ -266,6 +266,19 @@
     align-items: center;
 }
 
+@media screen and (max-width:576px) {
+    
+    .trending_suggestion_wrap {
+        margin: 20px auto;
+        max-width: 325px;
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
 .heading_for_trending_section {
     font-size: 12px;
 
@@ -293,6 +306,7 @@
 .data h1 {
 
     background: linear-gradient(100deg, #35abff, #4226fe,rgb(215, 14, 199), red);
+    background: linear-gradient(100deg, #23a3fe, #4226fe);
     background-size: 110% auto;
     background-position: center;
     color: transparent;
@@ -373,6 +387,7 @@
     }
 
     .data h3 {
+        letter-spacing: 0.6px;
         font-weight: 300;
         font-size: 15px;
         color: #b1b1b1;
